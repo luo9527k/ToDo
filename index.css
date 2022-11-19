@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat center;
+}
+
+.header {
+    position: relative;
+    top: 30px;
+    height: 120px;
+}
+
+.title {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.todotitle {
+    line-height: 40px;
+    font-size: 30px;
+}
+
+#add_list {
+    margin-top: 11px;
+    width: 60%;
+    height: 24px;
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: #ccc;
+    font-size: 14px;
+    text-indent: 10px;
+}
+
+#btn-add {
+    width: 50px;
+    height: 30px;
+    margin-left: 15px;
+    border-color: whitesmoke;
+    border-radius: 10px;
+    background-color: rgb(200, 200, 247);
+}
+
+.clear {
+    float: right;
+    margin-right: 200px;
+}
+
+#btn-clear {
+    margin-top: 6px;
+    width: 100px;
+    height: 30px;
+    margin-right: 50px;
+    border-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    background-color: #e6d6bf;
+    cursor: pointer;
+}
+
+.content {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+h2 {
+    position: relative;
+}
+
+h2 span {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    border-radius: 23px;
+    line-height: 23px;
+    font-size: 13px;
+    text-align: center;
+    background-color: #fefdf9;
+}
+
+li {
+    position: relative;
+    top: 9px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 0 10px;
+    height: 32px;
+    box-shadow: 0 1px 0 #ccc;
+    line-height: 32px;
+    background-color: rgba(0, 0, 0, .3);
+    list-style: none;
+}
+
+ol li input {
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+p {
+    cursor: pointer;
+}
+
+ol li p {
+    display: inline;
+    margin-left: 35px;
+}
+
+ol li p input {
+    top: 5px;
+    margin-left: 35px;
+    width: 70%;
+    height: 14px;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 3px;
+}
+
+ol li a {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    display: inline-block;
+    border: 1px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: 1px;
+    line-height: 17px;
+    font-weight: 300;
+    cursor: pointer;
+    background-color: white;
+}

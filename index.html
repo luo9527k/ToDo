@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ToDoList—最简单的待办事项列表</title>
+    <link rel="stylesheet" href="index.css">
+    <img src="./images/wallhaven-725mg9_3840x1600.png">
+</head>
+
+<body>
+    <div class="header">
+        <div class="title">
+            <label class="todotitle" for="list">ToDoList</label></br>
+            <input type="text" id="add_list" name="add_list" placeholder="请输入任务" required="required"
+                autocomplete="off" />
+            <button id="btn-add">提交</button>
+        </div>
+        <div class="clear">
+            <button id="btn-clear" onClick="clear()">清理所有任务</button>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>待完成的计划 <span id="todocount"></span></h2>
+        <ol id="todolist">
+        </ol>
+
+        <h2>已完成的计划 <span id="donecount"></span></h2>
+        <ol id="donelist">
+        </ol>
+    </div>
+
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
